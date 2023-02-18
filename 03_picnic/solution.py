@@ -45,7 +45,8 @@ def main():
         items[-1] = 'and ' + items[-1]
         bringing = ', '.join(items)
 
-    print('You are bringing {}.'.format(bringing))
+    print(f'You are bringing {bringing}.')
+    print(__name__)
 
 
 # --------------------------------------------------
